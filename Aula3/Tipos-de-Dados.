@@ -22,3 +22,29 @@ Precisamos de mais espaço para escrever o resultado:
 - long int	-> 8 bytes	-> -9.224.372.036.854.775.808 a 9.234.372.036.854.775.808
 
 Todos esses tipos têm sinal!
+
+metadata.log_type = "ADSB_FI_CUSTOM"
+cast.as_float(extracted.fields["attributes.alt_baro"]) < 10000
+cast.as_float(extracted.fields["attributes.gs"]) > 250
+
+outcome:
+    $category = extracted.fields["attributes.category"]
+    $flight = extracted.fields["attributes.flight"]
+    $desc = extracted.fields["attributes.desc"]
+    $latitude = extracted.fields["attributes.lat"]
+    $longitude = extracted.fields["attributes.lon"]
+    $baro = extracted.fields["attributes.alt_baro"]
+    $gs = extracted.fields["attributes.gs"]
+    
+    
+  
+target.user.email_addresses = "thamires.santos@einstein.br" --> Microsoft AD
+target.user.userid = "DRT63174"
+target.user.user_display_name = "thamires.santos"
+
+target.user.email_addresses = "thamires.santos@einstein.br"
+
+
+event.idm.read_only_udm.target.user.email_addresses
+
+
