@@ -37,14 +37,3 @@ outcome:
     $gs = extracted.fields["attributes.gs"]
     
     
-  
-target.user.email_addresses = "thamires.santos@einstein.br" --> Microsoft AD
-target.user.userid = "DRT63174"
-target.user.user_display_name = "thamires.santos"
-
-target.user.email_addresses = "thamires.santos@einstein.br"
-
-
-event.idm.read_only_udm.target.user.email_addresses
-
-
