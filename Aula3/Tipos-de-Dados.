@@ -36,4 +36,14 @@ outcome:
     $baro = extracted.fields["attributes.alt_baro"]
     $gs = extracted.fields["attributes.gs"]
     
-    
+   Who -> Microsoft Teams Princin increase --> Microsoft <support@microsoft.com>
+   
+   What -> Phishing -> the email has a suspicious file .rar
+   
+   When -> Mar 27th at 19:25
+   
+   Where -> tryhackme mailbox
+   
+   Why -> the author of email want to stoled informations or credencials either
+   
+   There a suspicious command at Windows Server 2012 R2. Command dir hostname whoami /priv net group "Domain Admins" /domain nltest /dclist:tryhackme.thm. 
